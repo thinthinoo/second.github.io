@@ -1,0 +1,138 @@
+*{
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+#body{
+	overflow-x: hidden;
+	background-color: #594545;
+}
+
+#nav{
+	background-color: #9E7676;
+}
+
+#nav a{
+	font-size: 30px;
+	display: inline-block;
+    position: relative;
+	color: #FFF8EA;
+}
+
+#nav a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #815B5B;
+  transition: transform 0.25s ease-out;
+}
+
+#nav a:hover:after {
+	transform: scaleX(1);
+}
+
+.banner_div{
+	position: relative;
+	margin: 20px;
+	color: white;
+}
+
+#book-banner{
+	width: 100%;
+	height: 40vh;
+}
+
+.about_div{
+	position: absolute;
+	top: 58%;
+	right: 0.1px;
+	background: rgba(0, 0, 0, 0.6);
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#pfp{
+	width: 400px;
+	height: 400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.about_me_div{
+	width: 100%;
+	color: white;
+	outline: 1px solid white;
+	justify-content: flex-start;
+}
+
+h2{
+	text-align: center;
+	color: #FFF8EA;
+}
+
+.about_text{
+	width: 50%;
+	margin-top: 20px;
+	margin-left: 30px;
+	color: #FFF8EA;
+	font-size: 20px;
+}
+
+.services_div{
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+	outline: 1px solid whitesmoke;
+}
+
+.service{
+	width: 20%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	background-color: #815B5B;
+	color: #FFF8EA;
+	font-size: 20px;
+}
+
+#writing, #book_r, #movie_r, #poem_a{
+	width: 100%;
+	height: 25vh;
+	object-fit: cover;
+}
+
+.footer{
+	width: 100%;
+	height: 10vh;
+	justify-content: flex-start;
+}
+
+.socials{
+	margin-top: 40px;
+	margin-left: 20px;
+	font-size: 30px;
+	text-decoration: none;
+	color: #FFF8EA;
+}
+
+.socials i{
+	margin-left: 10px;
+	color: #FFF8EA;
+}
+
+.email{
+	margin-top: 38px;
+	margin-left: 700px;
+	width: 30%;
+	font-size: 30px;
+	color: #FFF8EA;
+}
+
